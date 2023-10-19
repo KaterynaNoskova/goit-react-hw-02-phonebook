@@ -1,6 +1,6 @@
 import { Component } from 'react';
 
-class ContactList extends Component {
+class ContactForm extends Component {
   state = {
     name: '',
     number: '',
@@ -46,4 +46,4 @@ class ContactList extends Component {
     );
   }
 }
-export default ContactList;
+export default ContactForm;

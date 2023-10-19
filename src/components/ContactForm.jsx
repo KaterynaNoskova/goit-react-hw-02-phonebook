@@ -1,6 +1,6 @@
 import ContactToSelect from './ContactToSelect';
 
-const ContactForm = ({ filterContacts, remove }) => {
+const ContactList = ({ filterContacts, remove }) => {
   return (
     <ul>
       {filterContacts.map(contact => (
@@ -16,4 +16,4 @@ const ContactForm = ({ filterContacts, remove }) => {
     </ul>
   );
 };
-export default ContactForm;
+export default ContactList;
